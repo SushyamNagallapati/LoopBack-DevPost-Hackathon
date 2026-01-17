@@ -15,14 +15,14 @@ Through a simple four-step flow, users are guided to:
 3. Clarify what truly matters in that context
 4. Generate small, actionable steps forward
 
-The entire experience runs locally in the browser — no accounts, no servers, no tracking.
+The entire experience runs locally in the browser - no accounts, no servers, no tracking.
 
 
 ## Key Features
 
 - Guided reflection flow that feels supportive and focused  
 - Actionable outcomes with clear next steps  
-- Privacy-first by design — all data stays on the user’s device  
+- Privacy-first by design - all data stays on the user’s device  
 - No external APIs or backend services  
 - Clean, distraction-free UI built for clarity  
 
@@ -86,4 +86,4 @@ LoopBack was built as a solo project during United Hacks V6, with a focus on:
 
 ## Author
 
-Sushyam Nagallapati
+Made with ❤️ Sushyam Nagallapati
