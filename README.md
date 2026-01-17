@@ -2,7 +2,7 @@
 
 **Reflect. Decide. Move Forward.**
 
-LoopBack is a human-centered web application designed to help people process difficult situations, identify what truly matters, and take meaningful next steps — all through a calm, structured, and privacy-first experience.
+LoopBack is a human-centered web application designed to help people process difficult situations, identify what truly matters, and take meaningful next steps - all through a calm, structured, and privacy-first experience.
 
 
 ## What is LoopBack?
