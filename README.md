@@ -2,7 +2,7 @@
 
 **Reflect. Decide. Move Forward.**
 
-LoopBack is a human-centered web application that helps people process difficult situations, identify what truly matters, and take meaningful next steps — through a calm, structured, and privacy-first experience.
+LoopBack is a human-centered web application that helps people process difficult situations, identify what truly matters, and take meaningful next steps - through a calm, structured, and privacy-first experience.
 
 🌐 Live Demo: https://loopback-mu.vercel.app/
 
@@ -18,7 +18,7 @@ Through a simple four-step flow, users are guided to:
 3. Clarify what truly matters in that context  
 4. Generate small, actionable steps forward  
 
-The entire experience runs locally in the browser — no accounts, no servers, no tracking.
+The entire experience runs locally in the browser - no accounts, no servers, no tracking.
 
 ---
 
@@ -26,7 +26,7 @@ The entire experience runs locally in the browser — no accounts, no servers, n
 
 - Guided reflection flow that feels supportive and focused  
 - Actionable outcomes with clear next steps  
-- Privacy-first by design — all data stays on the user’s device  
+- Privacy-first by design - all data stays on the user’s device  
 - No external APIs or backend services  
 - Clean, distraction-free UI built for clarity  
 
@@ -77,4 +77,4 @@ npm run dev
 
 ## Author
 
-Made with ❤️ Sushyam Nagallapati
+Sushyam Nagallapati
