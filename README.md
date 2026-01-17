@@ -1,73 +1,72 @@
-# React + TypeScript + Vite
+# LoopBack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Reflect. Decide. Move Forward.**
 
-Currently, two official plugins are available:
+LoopBack is a human-centered web application designed to help people process difficult situations, identify what truly matters, and take meaningful next steps — all through a calm, structured, and privacy-first experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## What is LoopBack?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+LoopBack helps users break out of mental loops caused by emotional friction, indecision, or overwhelm.
 
-## Expanding the ESLint configuration
+Through a simple four-step flow, users are guided to:
+1. Clearly describe the situation
+2. Identify and acknowledge their emotions
+3. Clarify what truly matters in that context
+4. Generate small, actionable steps forward
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The entire experience runs locally in the browser — no accounts, no servers, no tracking.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Key Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Guided reflection flow that feels supportive and focused  
+- Actionable outcomes with clear next steps  
+- Privacy-first by design — all data stays on the user’s device  
+- No external APIs or backend services  
+- Clean, distraction-free UI built for clarity  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## How It Works
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. The user describes a situation they are facing  
+2. They select or enter the emotion they are experiencing  
+3. They reflect on what matters most to them  
+4. LoopBack generates:
+   - A smallest possible step forward  
+   - A bolder step forward  
+5. Users can copy or save their reflection locally
+
+---
+
+## Built With
+
+- React  
+- TypeScript  
+- Vite  
+- Tailwind CSS  
+- LocalStorage  
+
+---
+
+## Privacy
+
+LoopBack is designed with privacy as a first-class principle.
+
+- No user accounts
+- No backend servers
+- No analytics or tracking
+- All data is stored locally in the browser
+
+If browser data is cleared, saved reflections will be removed unless exported.
+
+---
+
+## Getting Started (Local Development)
+
+```bash
+npm install
+npm run dev
