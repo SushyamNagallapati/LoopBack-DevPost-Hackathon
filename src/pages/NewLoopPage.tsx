@@ -198,7 +198,6 @@ export default function NewLoopPage() {
                     {step.label}
                   </span>
                 </div>
-
                 {index < STEPS.length - 1 && (
                   <div
                     className={[
@@ -292,7 +291,6 @@ export default function NewLoopPage() {
               )}
             </div>
           )}
-
           {currentStep === 3 && (
             <div>
               <label
@@ -320,7 +318,6 @@ export default function NewLoopPage() {
               </p>
             </div>
           )}
-
           {currentStep === 4 && generatedSteps && (
             <div className="space-y-8">
               <div>
@@ -356,7 +353,6 @@ export default function NewLoopPage() {
                       {generatedSteps.smallestStep}
                     </p>
                   </div>
-
                   <div className="bg-gray-800/50 border border-gray-800 rounded-md p-5">
                     <div className="flex justify-between items-start mb-3">
                       <h4 className="text-sm font-medium text-blue-400">
@@ -382,7 +378,6 @@ export default function NewLoopPage() {
                     </p>
                   </div>
                 </div>
-
                 <button
                   type="button"
                   onClick={copyAll}
@@ -401,7 +396,6 @@ export default function NewLoopPage() {
                   )}
                 </button>
               </div>
-
               <div className="border-t border-gray-800/50 pt-6">
                 <label className="flex items-center mb-4 cursor-pointer">
                   <input
@@ -414,7 +408,6 @@ export default function NewLoopPage() {
                     Generate message draft
                   </span>
                 </label>
-
                 {messageDraft && (
                   <div>
                     <label
@@ -448,7 +441,6 @@ export default function NewLoopPage() {
           >
             Back
           </button>
-
           {currentStep < 4 ? (
             <button
               type="button"

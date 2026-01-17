@@ -28,6 +28,7 @@ const getStepTemplates = (hash: number) => {
         'Schedule a time to talk',
         'Do one small thing that aligns with what matters to you',
       ],
+
       bolder: [
         'Initiate an honest, face-to-face conversation about how you feel',
         'Take concrete action that addresses the core of what matters',
@@ -39,6 +40,7 @@ const getStepTemplates = (hash: number) => {
         'Make a decision that might feel risky but aligns with what truly matters',
       ],
     },
+
     {
       smallest: [
         'Write one sentence about what you want to communicate',
@@ -50,6 +52,7 @@ const getStepTemplates = (hash: number) => {
         'Take a short walk to clear your head',
         'Acknowledge the emotion without trying to fix it yet',
       ],
+
       bolder: [
         'Have a direct conversation about what matters most',
         'Make a decision and take action, even if it feels uncertain',
@@ -80,7 +83,6 @@ export const generateSteps = (formData: LoopFormData): { smallestStep: string; b
   let smallestStep = templates.smallest[smallestIndex];
   let bolderStep = templates.bolder[bolderIndex];
   
-  // Personalize based on whatMatters if it contains specific keywords
   const whatMattersLower = formData.whatMatters.toLowerCase();
   
   if (whatMattersLower.includes('relationship') || whatMattersLower.includes('connection')) {
