@@ -4,7 +4,6 @@
 
 LoopBack is a human-centered web application designed to help people process difficult situations, identify what truly matters, and take meaningful next steps — all through a calm, structured, and privacy-first experience.
 
----
 
 ## What is LoopBack?
 
@@ -18,7 +17,6 @@ Through a simple four-step flow, users are guided to:
 
 The entire experience runs locally in the browser — no accounts, no servers, no tracking.
 
----
 
 ## Key Features
 
@@ -28,7 +26,6 @@ The entire experience runs locally in the browser — no accounts, no servers, n
 - No external APIs or backend services  
 - Clean, distraction-free UI built for clarity  
 
----
 
 ## How It Works
 
@@ -40,7 +37,6 @@ The entire experience runs locally in the browser — no accounts, no servers, n
    - A bolder step forward  
 5. Users can copy or save their reflection locally
 
----
 
 ## Built With
 
@@ -50,7 +46,6 @@ The entire experience runs locally in the browser — no accounts, no servers, n
 - Tailwind CSS  
 - LocalStorage  
 
----
 
 ## Privacy
 
@@ -63,7 +58,6 @@ LoopBack is designed with privacy as a first-class principle.
 
 If browser data is cleared, saved reflections will be removed unless exported.
 
----
 
 ## Getting Started (Local Development)
 
@@ -72,7 +66,6 @@ npm install
 npm run dev
 ```
 
---- 
 
 ## Project Context 
 
@@ -83,7 +76,6 @@ LoopBack was built as a solo project during United Hacks V6, with a focus on:
 - Clean, intuitive design
 - Real-world applicability
 
----
 
 ## What's Next
 
@@ -91,7 +83,6 @@ LoopBack was built as a solo project during United Hacks V6, with a focus on:
 - Export and sharing enhancements
 - Exploring optional AI assistance while preserving privacy
 
----
 
 ## Author
 
