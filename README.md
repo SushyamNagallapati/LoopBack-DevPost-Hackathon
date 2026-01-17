@@ -70,3 +70,29 @@ If browser data is cleared, saved reflections will be removed unless exported.
 ```bash
 npm install
 npm run dev
+```
+
+--- 
+
+## Project Context 
+
+LoopBack was built as a solo project during United Hacks V6, with a focus on:
+
+- Human interaction
+- Practical usability
+- Clean, intuitive design
+- Real-world applicability
+
+---
+
+## What's Next
+
+- Mobile-first refinements
+- Export and sharing enhancements
+- Exploring optional AI assistance while preserving privacy
+
+---
+
+## Author
+
+Sushyam Nagallapati
